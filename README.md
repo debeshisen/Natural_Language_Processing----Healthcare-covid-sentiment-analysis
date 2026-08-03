@@ -86,3 +86,20 @@ Healthcare-Twitter-Sentiment/
 ├── requirements.txt         # Required Python packages
 ├── .gitignore               # Excludes raw/cleaned CSV datasets from remote upload
 └── README.md                # Project documentation
+
+🚀 How to Run Locally
+1. Clone the Repository
+git clone [https://github.com/debeshisen/healthcare-covid-sentiment-analysis.git](https://github.com/debeshisen/healthcare-covid-sentiment-analysis.git)
+cd healthcare-covid-sentiment-analysis
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Add Dataset
+Place your dataset (covid19_tweets.csv) into the root directory.
+
+4. Execute Analysis
+Run the main script to process tweets and generate analytical plots:
+python sentiment_analysis.py
+Run the distribution plot script:
+python plot_distribution.py
